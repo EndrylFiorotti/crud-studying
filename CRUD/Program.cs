@@ -10,7 +10,6 @@ namespace CRUD {
 
         static void Main(string[] args) {
             bool isToContinue = true;
-
             do {
                 Console.WriteLine(
                     "Digite um número para escolher uma das opções: \n" +
