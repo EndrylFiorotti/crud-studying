@@ -52,7 +52,7 @@ namespace CRUD {
                 command.Parameters.AddWithValue("@value2", users.GetAge());
                 command.Parameters.AddWithValue("@value3", users.GetGender());
                 command.ExecuteNonQuery();
-                Console.WriteLine("Inserção efetuado com sucesso!!!");
+                Console.WriteLine("\nInserção efetuado com sucesso!!!\n");
             }
         }
 
